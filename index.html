@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Twitter Timeline</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #f0f2f5;
+      margin: 0;
+      padding: 20px;
+    }
+    .tweet {
+      background: white;
+      border-radius: 10px;
+      padding: 15px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .avatar {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+    .name {
+      font-weight: bold;
+    }
+    .handle {
+      color: gray;
+      margin-left: 5px;
+    }
+    .date {
+      color: gray;
+      font-size: 0.9em;
+      margin-left: auto;
+    }
+    .content {
+      margin: 10px 0;
+    }
+    .image {
+      max-width: 100%;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+    .footer {
+      font-size: 0.9em;
+      color: gray;
+      margin-top: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="tweet">
+    <div class="header">
+      <img src="avatar.JPEG" class="avatar" alt="avatar"/>
+      <div class="name">Reo</div>
+      <div class="handle">@reo_muroi</div>
+      <div class="date">・2015年4月</div>
+    </div>
+    <div class="content">
+      小学6年生。発表会で初めて人前で話して、拍手をもらった日。<br>
+      伝えることって楽しいかも、って思った瞬間。
+      <img src="presentation.JPEG" class="image" alt="presentation photo"/>
+    </div>
+    <div class="footer">💬 3 🔁 1 ❤️ 12</div>
+  </div>
+
+  <!-- 以下、tweetブロックをコピペして増やしていく -->
+  
+</body>
+</html>
