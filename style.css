@@ -164,3 +164,57 @@ body {
   color: #8899a6;
   font-size: 0.9em;
 }
+
+.tweet {
+  background-color: #192734;
+  border-bottom: 1px solid #38444d;
+  padding: 16px;
+  margin-top: 10px;
+  border-radius: 12px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tweet-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.tweet-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.tweet-user-info {
+  color: #e1e8ed;
+}
+
+.tweet-name {
+  font-weight: bold;
+  color: white;
+  margin-right: 5px;
+}
+
+.tweet-handle,
+.tweet-date {
+  color: #8899a6;
+  font-size: 0.9em;
+}
+
+.tweet-images img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 8px;
+}
+
+.tweet-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  color: #8899a6;
+  font-size: 0.9em;
+}
